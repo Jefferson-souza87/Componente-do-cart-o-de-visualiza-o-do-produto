@@ -86,6 +86,9 @@ body{
 button {
     background-color: hsl(158, 45%, 21%);
     padding: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     border: transparent;
     border-radius: 8px;
     color: white;
@@ -98,4 +101,5 @@ button {
 button:hover{
     background-color: hsl(159, 51%, 32%);
     transition: background-color 0.9s;
+    
 }

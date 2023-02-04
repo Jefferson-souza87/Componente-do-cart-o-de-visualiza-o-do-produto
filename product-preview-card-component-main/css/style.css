@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2? family= Fraunces:opsz,wght@9..144,700 & family= Montserrat:wght@500;700 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(31, 33%, 85%);
+    width: 940px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-perfume{
+    width: 350px;
+    height: auto;
+    border-radius: 18px 0 0px 18px;
+}
+
+.container{
+    width: 700px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.637);
+    padding: 0 0 0 0;
+    border-radius: 18px;
+    background-image: linear-gradient(to right, #707070, rgb(219, 219, 219), rgb(255, 255, 255));
+    box-shadow: 1px 1px 10px rgba(22, 102, 85, 0.144);
+    }
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    }
+
+.primeiro-paragrafo{
+    text-transform: uppercase;
+    font-size: 14px;
+    }
+
+.text h1{
+    font-size: 40px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 18px 0 20px 0;
+    color: hsl(212, 21%, 14%);
+    line-height: 35px;
+    }
+
+.primeiro-paragrafo{
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 10px;
+    }
+
+.text p{
+    font-size: 15px;
+    line-height: 25px;
+    color: #424242;
+}
+
+.precos{
+    display: flex;
+    justify-content:flex-start;
+    gap: 30px;
+    margin: 20px 0 20px 0;
+    align-items: center;
+}
+
+.precos h2{
+    font-family: "Fraunces";
+    font-weight: bold;
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+}
+
+.precos p{
+    text-decoration: line-through hsl(158, 36%, 37%);
+}
+
+button {
+    background-color: hsl(158, 45%, 21%);
+    padding: 12px;
+    border: transparent;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover{
+    background-color: hsl(159, 51%, 32%);
+    transition: background-color 0.9s;
+}
